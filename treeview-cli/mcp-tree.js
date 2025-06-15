@@ -16,7 +16,7 @@ for (let i = 0; i < args.length; i++) {
   }
 }
 
-let cmd = `tree "${paths}"`;
+let cmd = `tree "${path}"`;
 if (depth) {
   cmd += ` -L ${depth}`;
 }
