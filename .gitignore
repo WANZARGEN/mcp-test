@@ -1,0 +1,29 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log*
+
+# VSCode
+.vscode/
+
+# 환경설정 및 기타
+.env
+*.local
+
+# 로그 파일
+logs
+*.log
+
+# 빌드 결과물
+/dist/
+/build/
+
+# 기타
+.idea/
+*.swp 
